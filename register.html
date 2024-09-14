@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Future Science Jokes Convention</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Register for the Convention</h1>
+    </header>
+    
+    <nav>
+           <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <form action="https://formspree.io/f/xwpejqqj" method="POST" > 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="affiliation">Affiliation (if any):</label>
+            <input type="text" id="affiliation" name="affiliation"><br><br>
+            
+            <label for="interests">Areas of Interest:</label><br>
+            <textarea id="interests" name="interests" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Register">
+        </form>
+    </main>
+    
+    <footer>
+        <p>Contact us: <a href="quantumhallucinations@gmail.com">quantumhallucinations@gmail.com</a></p>
+    </footer>
+</body>
+</html>
